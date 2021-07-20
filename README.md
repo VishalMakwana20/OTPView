@@ -96,18 +96,18 @@ Specifies `pinViewStyle` in your theme,
 ``` xml
 <style name="AppTheme" parent="Theme.AppCompat.Light">
     ...
-    <item name="pinViewStyle">@style/PinWidget.PinView</item>
+    <item name="pinViewStyle">@style/OTPWidget.OTPView</item>
 </style>
 ```
 
 or use the `PinWidget.PinView` style.
 
 ``` xml
-<com.example.otpview.custom.PinView
+<com.example.otpview.custom.OTPView
     android:id="@+id/pinView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    style="@style/PinWidget.PinView" />
+    style="@style/OTPWidget.OTPView" />
 ```
 
 ### Step 3 (Optional):
