@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-   implementation 'com.github.VishalMakwana20:OTPView:0.1.0'
+   implementation 'com.github.VishalMakwana20:OTPView:0.1.2'
 }
 ```
 
