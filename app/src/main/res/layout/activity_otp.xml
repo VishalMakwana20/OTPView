@@ -11,7 +11,7 @@
 
     <com.example.otpview.custom.OTPView
         android:id="@+id/pinView"
-        style="@style/PinWidget.PinView"
+        style="@style/OTPWidget.OTPView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
