@@ -1,7 +1,9 @@
-# PinView
+# OTPView
 
-Provides a widget for enter PIN/OTP/password etc on Android 5.1+ (API 21).
+Provides a widget for enter PIN/OTP/password etc on Android 4.1+ (API 16).
 
+<p><img src="screenshots/styles.png" width="35%" />
+<img src="screenshots/input.gif" width="35%" /></p>
 
 ## Dependency
 
