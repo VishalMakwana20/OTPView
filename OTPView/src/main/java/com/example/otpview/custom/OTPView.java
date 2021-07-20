@@ -46,7 +46,7 @@ import com.example.otpview.R;
  * @author Chaos Leong
  * 01/04/2017
  */
-public class PinView extends AppCompatEditText {
+public class OTPView extends AppCompatEditText {
 
     private static final String TAG = "PinView";
 
@@ -96,15 +96,15 @@ public class PinView extends AppCompatEditText {
 
     private String mTransformed;
 
-    public PinView(Context context) {
+    public OTPView(Context context) {
         this(context, null);
     }
 
-    public PinView(Context context, @Nullable AttributeSet attrs) {
+    public OTPView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, R.attr.pinViewStyle);
     }
 
-    public PinView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public OTPView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         final Resources res = getResources();
